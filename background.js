@@ -6,7 +6,7 @@ const bgImage = document.createElement("img");
 bgImage.setAttribute("id","img")
 
 
-bgImage.src = `images/${chosenImage} ` ;
+bgImage.src = `${chosenImage} ` ;
 // bgImage.width  = 1300;
 // bgImage.height = 800;
 console.log(bgImage);
